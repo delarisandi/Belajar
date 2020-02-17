@@ -1,0 +1,27 @@
+<script type="text/javascript" src="http://yourjavascript.com/65160840132/cycle.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$('#content-slider').cycle({
+fx: 'fade'
+});
+});
+</script>
+<style type="text/css">
+#content-slider {
+   position: relative;
+   width: 95%;
+   height: 360px;
+   overflow: hidden;
+   margin:0 auto;
+}
+#content-slider img {
+   display: block;
+   width: 95%;
+   height: 360px;
+}
+</style>
+<div id="content-slider">
+<img src="2015-06-06_JUVE_-_FCB_015.v1433625289.jpg" />
+<img src="Barcelona-Supporter-Atmosphere-Wallpaper.jpg" />
+<img src="Barca-Camp_Nou2.jpg" />
+<img src="BARCELONA 2006.jpg" /></center></div></script>
