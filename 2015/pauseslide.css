@@ -1,0 +1,28 @@
+#css3slider:hover { 
+  -webkit-animation-play-state:paused; 
+  -moz-animation-play-state:paused; 
+  -o-animation-play-state:paused; 
+  animation-play-state:paused; }
+}
+ 
+#css3slider img { 
+  float: right; 
+}
+ 
+#slidercontainer:after { 
+  content: "❚❚"; 
+  font-size: 150px; 
+  position: absolute; 
+  z-index: 12; 
+  color: rgba(255,255,255, 0); 
+  left: 300px; top: 80px; 
+  -webkit-transition: 1s all ease-in-out; 
+  -ms-transition: 1s all ease-in-out; 
+  -moz-transition: 1s all ease-in-out; 
+  -o-transition: 1s all ease-in-out; 
+  transition: 1s all ease-in-out; 
+}
+ 
+#slidercontainer:hover:after { 
+  color: rgba(255,255,255, 0.6);  
+}
